@@ -1,0 +1,106 @@
+header div.top div.wrapper nav ul.menu li a{
+	font-family: "nevis";
+}
+header div.top div.wrapper div.lang select{
+	font-family: "Calibri";
+}
+header div.headerimg h1.welcometext{
+	font-family: "Bebas Neue";
+	font-weight: normal;
+}
+header div.headerimg h1.welcometext span{
+	font-family: "nevis";
+	font-weight: bold;
+}
+header div.bot div.wrapper div.desc h2{
+	font-family: "nevis";
+}
+header div.bot div.wrapper div.desc p{
+	font-family: "DIN";
+}
+header div.bot div.wrapper div.choose ul li span.text{
+	font-family: "nevis";
+}
+main section.tour div.wrapper h2.title{
+	font-family: "nevis";
+}
+header div.bot div.start div.wrapper a.startplan{
+	font-family: "TBC Din Mtavruli";
+}
+main section.tour div.wrapper section.progress{
+	font-family: "nevis";
+}
+main section.tour div.wrapper section.content section.choose2 aside div h4{
+	font-family: "nevis";
+}
+main section.tour div.wrapper section.content section.choose2 aside div span{
+	font-family: "DIN1";
+}
+main section.tour div.wrapper section.content section.choose2 article form h2{
+	font-family: "nevis";
+}
+main section.tour div.wrapper section.content section.choose2 article form table{
+	font-family: "DIN2";
+}
+main section.tour div.wrapper section.content section.choose2 article form a.back, main section.tour div.wrapper section.content section.choose2 article form button.next{
+	font-family: "TBC Din Mtavruli";
+}
+footer div.wrapper h4{
+	font-family: "DIN";
+}
+footer div.wrapper ul.address, footer div.wrapper span.copy{
+	font-family: "DIN";
+}
+main section.tour div.wrapper section.content section.tours article.t h2{
+	font-family: "TBC Din Mtavruli";
+	font-weight: normal;
+}
+main section.tour div.wrapper section.content section.tours article.t h3{
+	font-family: "DIN";
+}
+main section.tour div.wrapper section.content section.tours article.t p{
+	font-family: "DIN3";
+}
+main section.tour div.wrapper section.content section.tours article.t a{
+	font-family: "TBC Din Mtavruli";
+}
+main section.tour div.wrapper section.content section.choose2 article p.desc{
+	font-family: "DIN3";
+}
+main section.tour div.wrapper section.content section.choose2 article h3{
+	font-family: "DIN";
+}
+main section.tour div.wrapper section.content section.choose2 article h2{
+	font-family: "nevis";
+}
+main section.tour div.wrapper section.content section.choose2 article table tbody tr td span.title{
+	font-family: "DIN2";
+}
+main section.tour div.wrapper section.content section.choose2 article table tbody tr td{
+	font-family: "DIN2";
+}
+main section.tour div.wrapper section.content section.choose2 article p.c{
+	font-family: "DIN2";
+}
+main section.tour div.wrapper section.content section.choose2 article address{
+	font-family: "DIN3";
+}
+main section.tour div.wrapper section.content section.choose2 article button.print{
+	font-family: "TBC Din Mtavruli";
+}
+header.main div.headerimg a.startplan{
+	font-family: "TBC Din Mtavruli";
+}
+main section.tour div.wrapper section.content div.tourpage div.desc h2{
+	font-family: "nevis";
+}
+main section.tour div.wrapper section.content div.tourpage div.desc article{
+	font-family: "TBC Din Nusxuri";
+}
+main section.tour div.wrapper section.content div.tourpage div.desc div.price div span{
+	font-family: "DIN1";
+	font-weight: normal;
+}
+main section.tour div.wrapper section.content div.tourpage div.desc div.price button.booking{
+	font-family: "TBC Din Mtavruli";
+}

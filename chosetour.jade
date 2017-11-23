@@ -1,0 +1,100 @@
+-var menu = [['tours',"#"],['about us','#'], ['about georgia','#'], ['contact us','#']]
+-var slogan = 'log in travel'
+-var choose = [['choose desired tour','images/chose1.png'],['choose hotel type','images/chose2.png'],['choose your dates','images/chose3.png']]
+-var headings = ['plan your trip','view all tours','TOUR PRICE']
+-var siteTitle = "home"
+-var texts = ['Lorem Ipsum doller sit amed, here goes simple description for this tour and some more info. Lorem Ipsum doller sit amed, here goes simple description for this tour. Lorem Ipsum doller sit ', 'Kakheti destination tour includes multiple places in kakheti, wine tasting and lot of other activities that can make you trip to georgia one of the best in its kind. Kakheti is located in caucasus. Kakheti destination tour includes multiple places in kakheti, wine tasting and lot of other activities that can make you trip to georgia one of the best in its kind. Kakheti is located in caucasus.']
+-var lists = ['wine','Good people','Drinking','Playing Sports']
+-var buttons = ['START PLANNING NOW','START BOOKING']
+-var welcometext = ['PLAN YOUR DREAM VACATION IN','GEORGIA']
+-var address = ['37/39, Kostava Str., Grato Building','6th Floor, 0179, Tbilisi, Georgia','Tel.: +995 32 2 47 00 03','Tel.: +995 32 2 47 00 04','Email: travel@loginn.ge','Direct Contact']
+-var gallery = ['images/galeryimg.fw.png','images/galeryimg.fw.png','images/galeryimg.fw.png','images/galeryimg.fw.png']
+
+-var css = 'css/'
+-var img = 'images/'
+-var js = 'js/'
+-var tours = ['$ 156', '1 DAY TOUR TO DAVID GAREJI', 'Lorem Ipsum doller sit amed, here goes simple description for this tour and some more info. Lorem Ipsum doller sit amed, here goes simple description for this tour. Lorem Ipsum doller']
+
+
+
+doctype html
+html
+	head
+		title= siteTitle
+		meta(charset='utf-8')
+		link(rel='stylesheet', href=css + 'normalize.css')
+		link(rel='stylesheet', href=css + 'jquery-ui.min.css')
+		link(rel='stylesheet', href=css + 'jquery.datetimepicker.min.css')
+		link(rel='stylesheet', href=css + 'style.css')
+		link(rel='stylesheet', href=css + 'fonts.css')
+		link(rel='stylesheet', href=css + 'en.css')
+		// [if lt IE 9]
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js')
+		// [endif]
+	body
+		header.inner
+			div.top
+				div.left
+				div.wrapper
+					a(href="#",class="logo")
+					nav
+						ul.menu
+							each val in menu
+								li
+									a(href="" + val[1])= val[0]  							
+					div.lang
+						select
+							option switch language
+				div.yellowline
+			div.headerimg
+				h1.welcometext= welcometext[0]
+					span= welcometext[1] 
+			div.bot
+				div.left
+				div.wrapper
+					div.desc
+						h2= headings[0]
+						p= texts[0]
+					div.choose
+						ul
+							each val in choose
+								li
+									img(src=val[1], alt="img")
+									span.text=val[0]
+									span.arrow
+				div.start
+					div.wrapper
+						a.startplan(href="#")= buttons[0]
+		main
+			section.tour
+				div.left
+				div.wrapper
+					h2.title= headings[0]
+					section.progress
+						- for(var i=0; i<=choose.length; i++)
+							div.even= i + 1
+							if i < choose.length
+								div.odd= choose[i][0]
+								div(class="lines line" + i)
+					section.content
+						section.tours
+							- for(i=0; i < 9; i++)
+								article.t
+									img(src=img + "davidgareji.png")
+									h2=tours[0]
+									h3=tours[1]
+									p=tours[2]
+									a(href="#") VIEW TOUR
+		footer
+			div.left
+			div.wrapper
+				a.logo
+				h4= slogan
+				ul.address
+					each val in address
+						li= val
+				span.copy All Rights Reserved By Log inn Travel &copy; 2016
+			div.line
+		script(src=js + 'jquery-3.1.0.min.js')
+		script(src=js + 'jquery-ui.min.js')
+		script(src=js + 'main.js')
